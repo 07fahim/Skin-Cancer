@@ -1,0 +1,14 @@
+# Dataset Configuration
+path: /kaggle/input/skincancer/skin.v1i.yolov11  # Dataset root directory
+train: train/images  # Training images (relative to 'path')
+val: val/images    # Validation images (relative to 'path')
+test: test/images    # Test images (relative to 'path')
+nc: 7
+names: ['AKIEC', 'BCC', 'BKL', 'DF', 'MEL', 'NV', 'VASC']
+
+roboflow:
+  workspace: skinlesion-ob1tz
+  project: skin-jrogy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skinlesion-ob1tz/skin-jrogy/dataset/1
